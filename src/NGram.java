@@ -1,4 +1,4 @@
-public class NGram {
+class NGram {
     private int recentHistory;
     private float prob1;
     private float prob2;
@@ -6,7 +6,7 @@ public class NGram {
     private float prob4;
     private float prob5;
 
-    public NGram(int recentHistory){
+    NGram(int recentHistory) {
         this.recentHistory = recentHistory;
         this.prob1 = 0;
         this.prob2 = 0;
@@ -15,51 +15,43 @@ public class NGram {
         this.prob5 = 0;
     }
 
-    public float getRecentHistory() {
-        return recentHistory;
-    }
-
-    public void setRecentHistory(int recentHistory) {
-        this.recentHistory = recentHistory;
-    }
-
-    public float getProb1() {
+    float getProb1() {
         return prob1;
     }
 
-    public void setProb1(float prob1) {
+    void setProb1(float prob1) {
         this.prob1 = prob1;
     }
 
-    public float getProb2() {
+    float getProb2() {
         return prob2;
     }
 
-    public void setProb2(float prob2) {
+    void setProb2(float prob2) {
         this.prob2 = prob2;
     }
 
-    public float getProb3() {
+    float getProb3() {
         return prob3;
     }
 
-    public void setProb3(float prob3) {
+    void setProb3(float prob3) {
         this.prob3 = prob3;
     }
 
-    public float getProb4() {
+    float getProb4() {
         return prob4;
     }
 
-    public void setProb4(float prob4) {
+    void setProb4(float prob4) {
         this.prob4 = prob4;
     }
 
-    public float getProb5() {
+    float getProb5() {
         return prob5;
     }
 
-    public void setProb5(float prob5) {
+    void setProb5(float prob5) {
         this.prob5 = prob5;
     }
 }
